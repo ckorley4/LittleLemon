@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5rem;
+}
+
+nav {
+  height: 3rem;
+  background-color: rgb(2, 57, 57);
+  border-radius: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+li a {
+  font: 3rem;
+  color: white;
+  text-decoration: none;
+}
+.deals {
+  height: 250px;
+  border-radius: 25px;
+  text-align: center;
+  border: 1px solid #333;
+  background-image: url(/food4.jpeg);
+  color: white;
+}
+
+section {
+  display: flex;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+
+article {
+  flex: 1;
+}
+
+.food {
+  height: 20rem;
+}
+.food article {
+  padding: 0.5rem;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin-right: 1rem;
+  text-align: center;
+}
+.food article img {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #333;
+}
+
+.food article:last-child {
+  margin-right: 0;
+}
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+footer img {
+  height: 3rem;
+}
+
+li a:hover {
+  text-decoration: underline;
+  font-size: 2rem;
+}
